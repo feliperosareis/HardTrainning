@@ -11,8 +11,10 @@ namespace DAO
 {
     public class ConnectorDAO
     {
+        // Instância da conexão com o banco de dados.
         MySqlConnection conn = new MySqlConnection("server=localhost;database=hardtraining;uid=root;pwd=");
 
+        // Método para conexao com o banco de dados.
         public void connect()
         {
             try
@@ -25,6 +27,7 @@ namespace DAO
             }
         }
 
+        // Método para Inclusão e Atualização.
         public void executeQuery(string query)
         {
             MySqlCommand cmd = new MySqlCommand(query, conn);
@@ -32,6 +35,7 @@ namespace DAO
             conn.Close();
         }
 
+        // Método para consulta.
         public DataTable result(string query)
         {
             DataTable data = new DataTable();
@@ -40,15 +44,6 @@ namespace DAO
             adapt.Fill(data);
 
             return data;
-        }
-
-        public MySqlDataReader resultset(string query)
-        {
-            MySqlCommand cmd = new MySqlCommand(query, conn);
-            MySqlDataReader reader = cmd.ExecuteReader();
-            reader.Read();
-
-            return reader;
         }
     }
 }

@@ -14,7 +14,7 @@ namespace Models
         private string celular;
         private string dataNascimento;
         private string plano;
-        private int status;
+        private string status;
 
 
         public int Id { get => id; set => id = value; }
@@ -29,6 +29,6 @@ namespace Models
         
         public string Plano { get => plano; set => plano = value; }
         
-        public int Status { get => status; set => status = value; }
+        public string Status { get => status; set => status = value; }
     }
 }

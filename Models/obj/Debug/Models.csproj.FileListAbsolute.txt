@@ -24,8 +24,8 @@ G:\UNIVALI EAD\2º Semestre\Módulo 1\How III\HardTrainning\Models\bin\Debug\Sys
 G:\UNIVALI EAD\2º Semestre\Módulo 1\How III\HardTrainning\Models\bin\Debug\System.Memory.xml
 G:\UNIVALI EAD\2º Semestre\Módulo 1\How III\HardTrainning\Models\bin\Debug\System.Numerics.Vectors.xml
 G:\UNIVALI EAD\2º Semestre\Módulo 1\How III\HardTrainning\Models\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-G:\UNIVALI EAD\2º Semestre\Módulo 1\How III\HardTrainning\Models\obj\Debug\Models.csprojAssemblyReference.cache
 G:\UNIVALI EAD\2º Semestre\Módulo 1\How III\HardTrainning\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
 G:\UNIVALI EAD\2º Semestre\Módulo 1\How III\HardTrainning\Models\obj\Debug\Models.csproj.CopyComplete
 G:\UNIVALI EAD\2º Semestre\Módulo 1\How III\HardTrainning\Models\obj\Debug\Models.dll
 G:\UNIVALI EAD\2º Semestre\Módulo 1\How III\HardTrainning\Models\obj\Debug\Models.pdb
+G:\UNIVALI EAD\2º Semestre\Módulo 1\How III\HardTrainning\Models\obj\Debug\Models.csprojAssemblyReference.cache

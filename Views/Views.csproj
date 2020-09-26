@@ -105,17 +105,29 @@
     <Compile Include="CadastroAulas.Designer.cs">
       <DependentUpon>CadastroAulas.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroUsuario.Designer.cs">
+      <DependentUpon>CadastroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checkin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checkin.Designer.cs">
+      <DependentUpon>Checkin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ListagemAlunos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ListagemAlunos.Designer.cs">
-      <DependentUpon>ListagemAlunos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -125,8 +137,14 @@
     <EmbeddedResource Include="CadastroAulas.resx">
       <DependentUpon>CadastroAulas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListagemAlunos.resx">
-      <DependentUpon>ListagemAlunos.cs</DependentUpon>
+    <EmbeddedResource Include="CadastroUsuario.resx">
+      <DependentUpon>CadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checkin.resx">
+      <DependentUpon>Checkin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -141,6 +159,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Controllers.AulasController.datasource" />
+    <None Include="Properties\DataSources\Models.AulasModel.datasource" />
     <None Include="Properties\DataSources\MySql.Data.Resources.datasource" />
     <None Include="Properties\DataSources\MySql.Data.ResourcesX.datasource" />
     <None Include="Properties\Settings.settings">

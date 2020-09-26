@@ -90,6 +90,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlunosModel.cs" />
+    <Compile Include="CheckinModel.cs" />
+    <Compile Include="AulasModel.cs" />
+    <Compile Include="UsuariosModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
